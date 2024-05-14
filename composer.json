@@ -1,0 +1,33 @@
+{
+    "name": "onkihara/socialite_blikk",
+    "description": "blikk OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "keywords": [
+        "blikk",
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "authors": [
+        {
+            "name": "ah",
+            "email": "info@blikk.it"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+     "autoload": {
+        "psr-4": {
+            "Onkihara\\SocialiteBlikk\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Onkihara\\SocialiteBlikk\\ServiceProvider"
+            ]
+        }
+    }
+}
